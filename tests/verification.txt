@@ -1,0 +1,11 @@
+PASS travel easing bounds and midpoint
+PASS perch coordinate clamping
+PASS sprite 0/0 visible bounds 377x496; transparent pixels 73932
+PASS sprite 0/1 visible bounds 380x418; transparent pixels 50396
+PASS sprite 1/0 visible bounds 342x547; transparent pixels 72880
+PASS sprite 1/1 visible bounds 328x432; transparent pixels 42220
+PASS sprite 2/0 visible bounds 313x457; transparent pixels 48405
+PASS sprite 2/1 visible bounds 324x385; transparent pixels 31663
+PASS walking, stay switch, pause and visibility transitions
+PASS settings round trip
+PASS corrupted settings recovery
