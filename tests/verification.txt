@@ -1,11 +1,25 @@
 PASS travel easing bounds and midpoint
 PASS perch coordinate clamping
-PASS sprite 0/0 visible bounds 377x496; transparent pixels 73932
-PASS sprite 0/1 visible bounds 380x418; transparent pixels 50396
-PASS sprite 1/0 visible bounds 342x547; transparent pixels 72880
-PASS sprite 1/1 visible bounds 328x432; transparent pixels 42220
-PASS sprite 2/0 visible bounds 313x457; transparent pixels 48405
-PASS sprite 2/1 visible bounds 324x385; transparent pixels 31663
-PASS walking, stay switch, pause and visibility transitions
+PASS sprite 0/0 visible bounds 125x236; transparent pixels 14662
+PASS sprite 0/1 visible bounds 125x236; transparent pixels 14612
+PASS sprite 0/2 visible bounds 125x236; transparent pixels 14978
+PASS sprite 0/3 visible bounds 125x236; transparent pixels 13678
+PASS sprite 0/4 visible bounds 125x236; transparent pixels 15081
+PASS sprite 0/5 visible bounds 171x200; transparent pixels 19143
+PASS sprite 1/0 visible bounds 125x248; transparent pixels 13276
+PASS sprite 1/1 visible bounds 123x248; transparent pixels 12838
+PASS sprite 1/2 visible bounds 125x248; transparent pixels 13811
+PASS sprite 1/3 visible bounds 123x248; transparent pixels 12546
+PASS sprite 1/4 visible bounds 125x248; transparent pixels 13823
+PASS sprite 1/5 visible bounds 165x237; transparent pixels 20977
+PASS sprite 2/0 visible bounds 107x218; transparent pixels 8135
+PASS sprite 2/1 visible bounds 105x218; transparent pixels 8330
+PASS sprite 2/2 visible bounds 107x218; transparent pixels 8836
+PASS sprite 2/3 visible bounds 107x218; transparent pixels 8160
+PASS sprite 2/4 visible bounds 107x218; transparent pixels 8531
+PASS sprite 2/5 visible bounds 163x190; transparent pixels 16148
+PASS consistent ground baselines and sitting pelvic alignment
+PASS walking, travel static legs, stay switch, pause and visibility transitions
+PASS taskbar auto-hide tracking, window relocation escape, and Luffy rubber arm mechanics
 PASS settings round trip
 PASS corrupted settings recovery

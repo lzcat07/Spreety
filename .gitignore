@@ -3,3 +3,8 @@ dist/
 work/
 *.user
 *.log
+test-results.txt
+test-settings/
+scratch/
+Spreety.exe
+AGENTS.md
