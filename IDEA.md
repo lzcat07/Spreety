@@ -1,7 +1,5 @@
 # Spreety
 
-Recorded 27 October 2026 from the original app request.
-
 Spreety is a decorative Windows desktop app. It has no productivity goal: it makes a desktop feel alive with tiny anime companions in a vinyl collectible / chibi sprite style.
 
 ## The initial crew
