@@ -1,6 +1,6 @@
 # Development log
 
-## 2026-10-27 · Version 1.7 · Permanent Fullscreen Surface, Window Occlusion Clipping, Taskbar Dangling Legs & Standing Landing
+## 2026-10-27 · DEV Version 1.0.7--->Release Version 1.0 · Permanent Fullscreen Surface, Window Occlusion Clipping, Taskbar Dangling Legs & Standing Landing
 
 ### Scope and updates
 - Taskbar visible dangling legs (Pic 1):
@@ -18,7 +18,7 @@
   - Companions pause for ~1.5–2.5 seconds before naturally deciding whether to stroll, sit, or wave.
 - Built clean binaries, verified automated self-tests pass, and updated release packages.
 
-## 2026-10-27 · Version 1.6 · Proportionate 2.5D Rubber Arm, Elimination of Invisible Clipping Curtains & Flight Teleport Fixes
+## 2026-10-27 · DEV Version 1.0.6 · Proportionate 2.5D Rubber Arm, Elimination of Invisible Clipping Curtains & Flight Teleport Fixes
 
 ### Scope and updates
 - Fixed invisible curtain and taskbar vanishing bugs (Images 2 & 3):
@@ -37,7 +37,7 @@
   - Rendered a neat 4×4 pixel grabbing fist at the target edge.
 - Verified all unit checks pass with `--self-test`, repackaged distribution zips, and launched live instance.
 
-## 2026-10-27 · Version 1.5 · Natural Flight Mechanics, Rubber Arm Slingshot, Dynamic Taskbar Tracking & Window Relocation Escape
+## 2026-10-27 · DEV Version 1.0.5 · Natural Flight Mechanics, Rubber Arm Slingshot, Dynamic Taskbar Tracking & Window Relocation Escape
 
 ### Scope and updates
 - Slower natural flight speeds and directional anticipation:
@@ -62,7 +62,7 @@
   - Verified windup anticipation states, continuous stationary-leg flight poses, dynamic taskbar tracking up/down, multi-window escape, single-window escape to taskbar, and Luffy's stretch-versus-slingshot body anchoring.
 - Built clean binaries, verified self-tests pass, updated release packages, and verified clean packaging.
 
-## 2026-10-27 · Version 1.4 · Firm Ground Contact & Natural Sitting Surface Alignment
+## 2026-10-27 · DEV Version 1.0.4 · Firm Ground Contact & Natural Sitting Surface Alignment
 
 ### Scope and updates
 - Fixed sitting pose floating gap on window title bars and taskbar:
@@ -77,7 +77,7 @@
 - Expanded automated `--self-test` to verify ground baselines, uniform standing heights across all walk cycle frames, and pelvic seating alignment for all 3 companions.
 - Built clean binaries, verified all unit tests pass, repackaged root and `dist/Spreety-v1-win-x64.zip`, and launched the updated executable.
 
-## 2026-10-27 · Version 1.3 · Balanced Stride Cycles & Static Flight Poses
+## 2026-10-27 · DEV Version 1.0.3 · Balanced Stride Cycles & Static Flight Poses
 
 ### Scope and updates
 - Corrected Senku and Rei's walking strides: eliminated uneven half-strides by expanding both forward contact steps to equal, matching stride extensions (matching Luffy's balanced stride dynamics).
@@ -85,7 +85,7 @@
 - Updated automated `--self-test` to verify that companions maintain stationary legs during travel.
 - Rebuilt binaries, updated release packages, and launched latest Spreety build.
 
-## 2026-10-27 · Version 1.2 · Lifelike Knee-Bending Walk Cycles & Correct Walking Direction
+## 2026-10-27 ·DEV  Version 1.0.2 · Lifelike Knee-Bending Walk Cycles & Correct Walking Direction
 
 ### Scope and updates
 - Fixed walking direction inversion: characters naturally face right (+1) and are mirrored horizontally (`ScaleTransform(-1, 1)`) when walking or traveling left (-1), ensuring sprites always face forward in their direction of movement and immediately turn around when changing direction.
@@ -97,7 +97,7 @@
 - Updated `--self-test` to validate all 18 frames (3 companions × 6 poses) across transparency, easing, walking, and settings persistence.
 - Re-rendered control room preview and updated release package `Spreety-v1-win-x64.zip`.
 
-## 2026-10-27 · Version 1.1 · 2.5D Pixel Redesign & True Walk Cycles
+## 2026-10-27 · DEV Version 1.0.1 · 2.5D Pixel Redesign & True Walk Cycles
 
 ### Scope and updates
 - Maintained standalone `Spreety.exe` directly in the root repository folder outside the zip for instant double-click execution, keeping `Spreety-v1-win-x64.zip` in root and `dist/` for final distribution.
@@ -110,7 +110,7 @@
 - Updated automated `--self-test` to validate all 15 frames (3 characters × 5 poses: idle stand, walk 1, walk pass, walk 2, seated).
 - Re-rendered Control Room preview screenshot and repackaged distribution zip.
 
-## 2026-10-27 · Version 1
+## 2026-10-27 · DEV Version 1.0.0
 
 ### Scope and setup
 
