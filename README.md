@@ -11,9 +11,7 @@ Luffy, Senku, and Rei rest above your taskbar, greet you, wander across visible 
 
 ## Run
 
-You can launch **`Spreety.exe`** directly from the repository root (outside the zip). Keep the `assets` folder beside the executable.
-
-For final shipping or distribution to friends, use **`Spreety-v1-win-x64.zip`** (packaged in the root and `dist/`).
+Download `Spreety-v1-win-x64.zip` from Releases, extract the zip, and run **`Spreety.exe`**. Make sure the `assets` folder stays beside the executable.
 
 Requires Windows 10/11 x64 and .NET Framework 4.8. No Node, npm, administrator rights, or network connection is needed by the app.
 
